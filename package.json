@@ -1,0 +1,19 @@
+{
+  "name": "loading-animation",
+  "version": "1.0.0",
+  "description": "home screen loading animation for ohmyfood",
+  "main": "index.js",
+  "scripts": {
+      "sass": "sass --watch ./animation.scss:./css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gasper324/loading-animation.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gasper324/loading-animation/issues"
+  },
+  "homepage": "https://github.com/gasper324/loading-animation#readme"
+}

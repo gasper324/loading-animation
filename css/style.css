@@ -1,0 +1,44 @@
+.wineglass {
+  width: 80px;
+}
+.wineglass__base {
+  width: 70px;
+  height: 10px;
+  background-color: silver;
+  border-radius: 10px 10px 2px 2px;
+  margin: 0 7px;
+}
+.wineglass__stem {
+  width: 10px;
+  height: 70px;
+  background-color: silver;
+  margin: 0 37px;
+}
+.wineglass__bowl {
+  width: 80px;
+  height: 120px;
+  border-radius: 2px 2px 20px 20px;
+  border: solid 4px silver;
+  overflow: hidden;
+  box-shadow: 0 0 0 10px white;
+}
+.wineglass__full {
+  width: 82px;
+  height: 110px;
+  background-color: skyblue;
+  border-radius: 0 0 17px 17px;
+  position: absolute;
+  top: 123px;
+  left: 12px;
+  transform: translateY(-100px);
+  transition: transform 5s ease-in-out 0s;
+  z-index: -1;
+}
+.wineglass__bottom-container {
+  width: 88px;
+  height: 120px;
+  position: relative;
+  background-color: white;
+}
+
+/*# sourceMappingURL=style.css.map */
